@@ -1,0 +1,60 @@
+<svg width="400" height="100" viewBox="0 0 400 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define gradients -->
+  <defs>
+    <linearGradient id="icon-gradient" x1="0" y1="0" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0099FF"/>
+      <stop offset="100%" stop-color="#00E5B0"/>
+    </linearGradient>
+    
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Main icon background -->
+  <rect x="20" y="15" width="70" height="70" rx="15" 
+        fill="url(#icon-gradient)" 
+        filter="url(#glow)"/>
+
+  <!-- Decorative pulse lines -->
+  <path d="M30 50 Q35 50, 40 50, 45 35, 50 65, 55 45, 60 50, 65 50, 70 50, 75 50, 80 50" 
+        stroke="white" 
+        stroke-width="3" 
+        fill="none" 
+        stroke-linecap="round"
+        opacity="0.6"/>
+
+  <!-- Calendar markings -->
+  <path d="M35 30 H75 M35 45 H75 M35 60 H75" 
+        stroke="white" 
+        stroke-opacity="0.3" 
+        stroke-width="2"
+        stroke-dasharray="2 4"/>
+
+  <!-- Stethoscope design -->
+  <path d="M45 35 C45 25, 65 25, 65 35 M55 35 Q55 55 45 65 H65" 
+        stroke="white" 
+        stroke-width="4"
+        fill="none"
+        stroke-linecap="round"/>
+
+  <!-- Medical cross -->
+  <path d="M52 45 V55 M47 50 H57" 
+        stroke="white" 
+        stroke-width="4"
+        stroke-linecap="round"/>
+
+  <!-- CAREBOOK text -->
+  <text x="110" 
+        y="65" 
+        font-family="Arial Black, sans-serif" 
+        font-size="45" 
+        font-weight="900"
+        fill="white"
+        filter="url(#glow)">CareBook</text>
+ 
+</svg>
