@@ -1,8 +1,7 @@
 <div align="center">
   <br />
-    <a href="https://youtu.be/lEflo_sc82g?feature=shared" target="_blank">
-      <img src="https://github.com/adrianhajdin/healthcare/assets/151519281/a7dd73b6-93de-484d-84e0-e7f4e299167b" alt="Project Banner">
-    </a>
+  <h1>CareBook</h1>
+  <img src="/api/placeholder/800/400" alt="CareBook Banner">
   <br />
 
   <div>
@@ -12,122 +11,111 @@
     <img src="https://img.shields.io/badge/-Appwrite-black?style=for-the-badge&logoColor=white&logo=appwrite&color=FD366E" alt="appwrite" />
   </div>
 
-  <h3 align="center">A HealthCare Management System</h3>
+  <h3 align="center">Modern Healthcare Appointment Management System</h3>
 
    <div align="center">
-     Build this project step by step with our detailed tutorial on <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a> YouTube. Join the JSM family!
+     A comprehensive solution for healthcare providers to streamline patient appointments and communications
     </div>
 </div>
 
-## 📋 <a name="table">Table of Contents</a>
+## 📋 Table of Contents
 
-1. 🤖 [Introduction](#introduction)
+1. 🏥 [Introduction](#introduction)
 2. ⚙️ [Tech Stack](#tech-stack)
 3. 🔋 [Features](#features)
-4. 🤸 [Quick Start](#quick-start)
-5. 🕸️ [Snippets (Code to Copy)](#snippets)
-6. 🔗 [Assets](#links)
-7. 🚀 [More](#more)
+4. 🚀 [Getting Started](#getting-started)
+5. 🛠️ [Installation](#installation)
+6. 📚 [Documentation](#documentation)
 
-## 🚨 Tutorial
+## <a name="introduction">🏥 Introduction</a>
 
-This repository contains the code corresponding to an in-depth tutorial available on our YouTube channel, <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a>.
-
-If you prefer visual learning, this is the perfect resource for you. Follow our tutorial to learn how to build projects like these step-by-step in a beginner-friendly manner!
-
-<a href="https://youtu.be/lEflo_sc82g?feature=shared" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/1736fca5-a031-4854-8c09-bc110e3bc16d" /></a>
-
-## <a name="introduction">🤖 Introduction</a>
-
-A healthcare patient management application that allows patients to easily register, book, and manage their appointments with doctors, featuring administrative tools for scheduling, confirming, and canceling appointments, along with SMS notifications, all built using Next.js.
-
-If you're getting started and need assistance or face any bugs, join our active Discord community with over **34k+** members. It's a place where people help each other out.
-
-<a href="https://discord.com/invite/n6EdbFJ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/618f4872-1e10-42da-8213-1d69e486d02e" /></a>
+CareBook is a modern, user-friendly healthcare management system designed to streamline the patient-doctor appointment process. Our platform enables healthcare providers to efficiently manage patient appointments while providing patients with an intuitive interface for booking and managing their medical visits. With real-time SMS notifications and comprehensive administrative tools, CareBook brings healthcare management into the digital age.
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
-- Next.js
-- Appwrite
-- Typescript
-- TailwindCSS
-- ShadCN
-- Twilio
+- Next.js - For server-side rendering and optimal performance
+- Appwrite - Backend infrastructure and authentication
+- TypeScript - For type-safe code and better development experience
+- TailwindCSS - For responsive and beautiful UI design
+- ShadCN - For consistent and accessible UI components
+- Twilio - For SMS notifications
 
 ## <a name="features">🔋 Features</a>
 
-👉 **Register as a Patient**: Users can sign up and create a personal profile as a patient.
+### For Patients
+- 📝 Simple and secure registration process
+- 📅 Intuitive appointment booking interface
+- 📱 Real-time SMS appointment confirmations
+- 📊 Personal appointment history tracking
+- 🔄 Easy rescheduling capabilities
 
-👉 **Book a New Appointment with Doctor**: Patients can schedule appointments with doctors at their convenience and can book multiple appointments.
+### For Administrators
+- 👥 Comprehensive patient management
+- 📊 Advanced appointment scheduling system
+- 📱 Automated SMS notification system
+- 📈 Analytics and reporting tools
+- 🔒 Secure file management with Appwrite
 
-👉 **Manage Appointments on Admin Side**: Administrators can efficiently view and handle all scheduled appointments.
+### Technical Features
+- 🎯 Complete responsiveness across all devices
+- 🔒 Secure file handling with Appwrite Storage
+- 📊 Performance monitoring with Sentry
+- 🛠️ Robust error handling
+- 🔄 Real-time updates
 
-👉 **Confirm/Schedule Appointment from Admin Side**: Admins can confirm and set appointment times to ensure they are properly scheduled.
+## <a name="getting-started">🚀 Getting Started</a>
 
-👉 **Cancel Appointment from Admin Side**: Administrators have the ability to cancel any appointment as needed.
+### Prerequisites
 
-👉 **Send SMS on Appointment Confirmation**: Patients receive SMS notifications to confirm their appointment details.
-
-👉 **Complete Responsiveness**: The application works seamlessly on all device types and screen sizes.
-
-👉 **File Upload Using Appwrite Storage**: Users can upload and store files securely within the app using Appwrite storage services.
-
-👉 **Manage and Track Application Performance Using Sentry**: The application uses Sentry to monitor and track its performance and detect any errors.
-
-and many more, including code architecture and reusability
-
-## <a name="quick-start">🤸 Quick Start</a>
-
-Follow these steps to set up the project locally on your machine.
-
-**Prerequisites**
-
-Make sure you have the following installed on your machine:
-
+Ensure you have the following installed:
 - [Git](https://git-scm.com/)
-- [Node.js](https://nodejs.org/en)
-- [npm](https://www.npmjs.com/) (Node Package Manager)
+- [Node.js](https://nodejs.org/en) (version 14 or higher)
+- [npm](https://www.npmjs.com/)
 
-**Cloning the Repository**
+### Installation Steps
 
+1. Clone the repository:
 ```bash
-git clone https://github.com/adrianhajdin/healthcare.git
-cd healthcare
+git clone https://github.com/yourusername/carebook.git
+cd carebook
 ```
 
-**Installation**
-
-Install the project dependencies using npm:
-
+2. Install dependencies:
 ```bash
 npm install
 ```
 
-**Set Up Environment Variables**
-
-Create a new file named `.env.local` in the root of your project and add the following content:
+3. Configure environment variables:
+Create a `.env.local` file in the root directory:
 
 ```env
 #APPWRITE
 NEXT_PUBLIC_ENDPOINT=https://cloud.appwrite.io/v1
-PROJECT_ID=
-API_KEY=
-DATABASE_ID=
-PATIENT_COLLECTION_ID=
-APPOINTMENT_COLLECTION_ID=
-NEXT_PUBLIC_BUCKET_ID=
+PROJECT_ID=your_project_id
+API_KEY=your_api_key
+DATABASE_ID=your_database_id
+PATIENT_COLLECTION_ID=your_patient_collection_id
+APPOINTMENT_COLLECTION_ID=your_appointment_collection_id
+NEXT_PUBLIC_BUCKET_ID=your_bucket_id
 
-NEXT_PUBLIC_ADMIN_PASSKEY=111111
+NEXT_PUBLIC_ADMIN_PASSKEY=your_admin_passkey
 ```
 
-Replace the placeholder values with your actual Appwrite credentials. You can obtain these credentials by signing up on the [Appwrite website](https://appwrite.io/).
-
-**Running the Project**
-
+4. Start the development server:
 ```bash
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
+Visit [http://localhost:3000](http://localhost:3000) to see your application running.
 
+## <a name="documentation">📚 Documentation</a>
 
+For detailed documentation about CareBook's features and API, please visit our [documentation page](your-documentation-link).
+
+## Contributing
+
+We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
