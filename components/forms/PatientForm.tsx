@@ -11,7 +11,7 @@ import SubmitButton from "../SubmitButton";
 import { useState } from "react";
 import { UserFormValidation } from "@/lib/validation";
 import { useRouter } from "next/navigation";
-import { createUser } from "@/api/actions/patient";
+import { createUser } from "@/lib/actions/patient.action";
 
 export enum FormFieldType {
   INPUT = "input",
